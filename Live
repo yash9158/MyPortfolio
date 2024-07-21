@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal PortFolio</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src="https://kit.fontawesome.com/9be35b46ea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div  id = "header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul id="sidemenu">
+                <li> <a href="#header">Home</a></li>
+                <li> <a href="#about">About</a></li>
+                <!-- ------------<li> <a href="Skills">Skills</a></li> ------------ -->
+                <li> <a href="#achievments">Achievments</a></li>
+                <li> <a href="#contact">Contact</a></li>
+                <i class="fas fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+
+        </nav>
+        <div class = "header-text"></div>
+            <h2> Competitive Programmer</h2>
+            <br>
+            <h1>Hi , I'm <span> Yash Kumar </span>from Lucknow , India</h1>
+        <div>
+    </div>
+</div>
+<!-- -----------------About-------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class = "Sub-title">About Me</h1>
+                <p>
+                    Hi there, I am Yash Kumar, a 2nd year student at the Institute of Engineering and Technology, Lucknow; pursuing Bachelor of Technology in Computer Science and Engineering.
+                    <br>
+                    I am proficient in some of the programming languages like C / C++ and Integrated Development Environments like Visual Studio Code and Sublime Text.
+                    <br>
+                    <br>
+                    I am a Competitive Programming enthusiast, and love to solve problems using various Data Structures and Algorithms.<br>
+                    <br>
+                    Currently, I am a Student Mentor at Fractal: The Coding Club, IET Lucknow, where we instruct 350+ students in fundamental programming and mathematics concepts. The students are guided in Data Structures and Algorithms using C++, from the primary level.
+                </p>
+                <div class="tab-titles">
+                    <p class = "tab-links  active-link" onclick="opentab('skills')"> Skills</p>
+                    <p class = "tab-links" onclick="opentab('Experience')"> Experience</p>
+                    <p class = "tab-links" onclick="opentab('Education')"> Education</p>
+                </div>
+                <div class="tab-contents active-tab" id = "skills">
+                    <ul>
+                        <li><span>Competitive Coding</span><br>Codeforces , Codechef , Atcoder</li>
+                        <br>
+                        <li><span>Data Structure and Algorithms</span><br>LeetCode , GFG</li>
+                        <br>
+                        <li><span>Languages </span><br>C , C++ , Java , Python , Latex , HTML , CSS</li>
+                        <br>
+                        <li><span>DSA and CP Mentor </span><br>Fractal Coding Club of IET Lucknow</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id = "Experience">
+                    <ul>
+                        <li><span>Student Mentor</span><br> Fractal The Coding Club , IET Lucknow || Jan 2024 - Present</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id = "Education">
+                    <ul>
+                        <li><span>Matriculate </span><br>Agra Public School || 2018-19 || Grade : 94%</li>
+                        <br>
+                        <li><span>Intermediate</span><br>Kamla Nehru Institute of Child Education || 2019-21 || Grade : 93%</li>
+                        <br>
+                        <li><span>Graduation</span><br>Institute of Engineering and Technology Lucknow || 2022-Present || Grade : 8.95 CGPA</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------------Achievements------------- -->
+<div id="achievments">
+    <div class="container">
+        <h1 class = "Sub-title"> Achievments </h1>
+        <div class="achievments-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Codeforces</h2>
+                <p>
+                    • <span class="spec">Specialist</span> at Codeforces with a highest rating of 1401.
+                    <br>
+                    • Global Rank - 2014 in Educational Codeforces Div. 2 934.
+                    <br>
+                    • Global Rank - 2572 in Educational Codeforces (Div. 1 + Div. 2).
+                    <br>
+                </p>
+                <a href="https://codeforces.com/profile/99_ms">Learn more</a>
+            </div>
+            <div>    
+                <i class="fa-solid fa-code"></i>
+                <h2>CodeChef</h2>
+                <p>
+                    • 3 ⭐ at Codechef wuth a highest rating of 1704.
+                <br>
+                    • Global Rank - 358 in CodeChef Starters 130 Division 2.
+                <br>
+                </p>
+                <a href="https://www.codechef.com/users/yash9158_22">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>LeetCode</h2>
+                <p>
+                    • Highest Rating of 1825 and solved 250+ questions.
+                    <br>
+                    • Global Rank - 881 in LeetCode Weekly Contest 400.
+                </p>
+                <a href="https://leetcode.com/u/yashkumar9158/">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Atcoder</h2>
+                <p>
+                    • 7 Kyu at Atcoder with a highest rating of 747.
+                    <br>
+                </p>
+                <a href="https://atcoder.jp/users/Light_22">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------Responsibiity--------------------->
+<div id = "responsibilities">
+    <div class="container">
+        <h1 class = "Sub-Title"> Position of Responsibilty</h1>
+        <div class="fractal">
+            <a href="https://www.linkedin.com/company/ietfractal/"> Fractal : The Coding Club</a>
+            <p>
+                • Instruct 200+ students in fundamental programming and mathematics concepts <br><br>
+                • Guide the students in Data Structures and Algorithms using C++, from basic level <br><br>
+                • Prepare the students to participate in competitive programming contest
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<!------------------------ Skills Summary ---------------------->
+<!---------------------------Contact---------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class = "sub-title"> Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>yashkumar9158@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>7302626105</p>
+                <div class = "social-icons">
+                    <a href="https://www.linkedin.com/in/yash-kumar-a81949267/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <br>
+                <a href="Resume.pdf" download class = "btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-email" method="POST" action="mailto:yashkumar9158@gmail.com" enctype="text/plain">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id = "msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class = "copyright">
+        <p>Copyright @ Yash . Made with <i class="fa-solid fa-heart"></i> by Yash Kumar</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyjB9bedPTW9OH1zkCOH-HS1NaaN8HtaF-QEuEPsYMpK7_G8asR41VOAgfe7hSKPNi5/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const mag = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Meggage Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
